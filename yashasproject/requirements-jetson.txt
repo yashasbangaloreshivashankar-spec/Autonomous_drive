@@ -1,0 +1,30 @@
+# Additional requirements for running on Jetson Nano
+# These should be installed on the Jetson device
+
+# Core ML libraries (usually pre-installed on Jetson)
+# torch
+# torchvision
+
+# Jetson-specific libraries
+# Install from: https://github.com/NVIDIA-AI-IOT/jetcard
+# jetcard
+
+# Install from: https://github.com/NVIDIA-AI-IOT/jetcam
+# jetcam
+
+# Install from: https://github.com/NVIDIA-AI-IOT/jetracer
+# jetracer
+
+# TensorRT optimization
+# Install from: https://github.com/NVIDIA-AI-IOT/torch2trt
+# torch2trt
+
+# For data collection notebook
+ipywidgets>=7.6.0
+traitlets>=5.0.0
+
+# Standard dependencies
+numpy>=1.19.0
+opencv-python>=4.5.0
+Pillow>=8.0.0
+tqdm>=4.60.0
